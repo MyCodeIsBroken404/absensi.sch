@@ -1,0 +1,53 @@
+/* public/css/custom.css */
+
+/* Customize Navbar */
+.navbar {
+    background-color: black; /* Ganti warna latar belakang navbar menjadi hitam */
+}
+
+/* public/css/custom.css */
+
+/* Customize Table */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f4f6; /* Warna latar belakang setiap baris ganjil */
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #edf2f7; /* Warna latar belakang setiap baris genap */
+}
+
+.table-striped tbody tr:hover {
+    background-color: #d2e1ff; /* Warna latar belakang saat hover pada baris */
+}
+
+.table-striped th, .table-striped td {
+    vertical-align: middle; /* Posisi konten di tengah secara vertikal */
+}
+
+.table-striped th {
+    border-bottom: 2px solid #dee2e6; /* Garis bawah pada header */
+}
+
+.table-striped td {
+    border-top: 1px solid #dee2e6; /* Garis atas pada sel */
+}
+
+.table-striped td, .table-striped th {
+    border-right: 1px solid #dee2e6; /* Garis kanan pada sel */
+}
+
+.table-striped th:last-child, .table-striped td:last-child {
+    border-right: none; /* Hapus garis kanan pada sel terakhir */
+}
+
+.table-striped th:first-child, .table-striped td:first-child {
+    border-left: none; /* Hapus garis kiri pada sel pertama */
+}
+
+/* public/css/custom.css */
+
+/* Tambahkan jarak antara sel dalam tabel */
+.table-striped td,
+.table-striped th {
+    padding: 8px 12px; /* Atur padding atas-bawah dan kiri-kanan */
+}
